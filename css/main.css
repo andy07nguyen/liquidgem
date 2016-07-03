@@ -1,0 +1,224 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #ececec;
+}
+
+
+/* Navigation Section */
+nav ul {
+	float: right;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 60px;
+	margin-top: 55px;
+
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #a3a5a6;
+	font-family: 'PT Sans Caption', sans-serif;
+	font-size: 15px;
+	font-weight: bold;		
+}
+
+nav .logo h3 {
+	position: relative;
+	font-family: 'Lobster', cursive;
+	font-size: 25px;
+	margin-left: 80px;
+	top: 47px;
+}
+
+nav .logo i {
+	float: left;
+	position: relative;
+	left: 53px;
+	top: 24px;
+	color: #eda7ba;
+	resize: 50px;
+}
+
+hr {
+	margin-top: 84px;
+}
+
+/* Header Section */
+header h3 {
+	text-align: center;
+	margin-top: 60px;
+	font-size: 24px;
+	font-family: 'PT Sans Caption', sans-serif;		
+}
+
+header h3 span {
+	color: #eda7ba;
+}
+
+header p {
+	text-align: center;
+	font-size: 16px;
+	line-height: 45px;
+}
+
+header img {
+	width: 97%;
+	border-radius: 10px;
+	height: 320px;
+	margin-left: 18px;
+	margin-top: 50px;
+
+}
+
+/* About Section */
+
+
+section .About .aboutme {
+	width: 40%;
+	float: left;
+	padding: 70px 5%;
+}
+
+section .About .aboutme h3 {
+	text-align: center;
+	font-size: 20px;
+	color: #eda7ba;
+	font-family: 'Lobster', cursive;
+}
+
+section .About .aboutme p {
+	margin-top: 40px;
+	font-size: 16px;
+	line-height: 25px;
+}
+
+/* Portfolio Section */
+.photos ul {
+	position: relative;
+	margin-left: 6%;
+	width: 90%;
+}
+
+.photos ul li {
+	list-style: none;
+	display: inline-block;
+	margin-left: 16px;
+}
+
+.photos ul li a {
+	text-decoration: none;
+}
+
+.photos ul li img {
+	position: relative;
+	border-radius: 20px;
+	height: 170px;
+	padding-bottom: 55px;
+	background-color: white;
+}
+
+.photos ul li img.resize {
+	width: 200px;
+}
+
+.photos ul li h3 {
+	position: relative;
+	bottom: 50px;
+	left: 15px;
+	font-family: sans-serif;		
+	font-size: 16px;
+	font-weight: normal;
+	color: black;
+}
+
+.photos ul li p {
+	position: relative;
+	bottom: 50px;
+	left: 15px;
+	font-family: 'Lobster', cursive;
+	font-size: 13px;
+	font-weight: normal;
+	color: #eda7ba;
+}
+
+section .ty {
+	position: relative;
+	text-align: center;
+	font-size: 20px;
+	color: #eda7ba;
+	font-family: 'Lobster', cursive;
+	top: 25px;
+}
+
+/* Contact Section */
+section .footer {
+	position: relative;
+	margin-top: 80px;
+	padding-top: 160px;
+	background-color: #2d2d2d;
+	height: 223px;
+}
+
+section .footer form {
+	position: relative;
+	margin-left: 20px;
+	bottom: 70px;
+}
+
+section .footer form h3 {
+	position: relative;
+	font-size: 20px;
+	color: #eda7ba;
+	font-family: 'Lobster', cursive;
+	bottom: 30px;
+}
+
+section .footer form input {
+	position: relative;
+	display: block;
+	line-height: 20px;
+	width: 45%;
+	bottom: 10px;
+	margin-top: 10px;
+}
+
+section .footer form textarea {
+	width: 45%;
+}
+
+section .footer button {
+	position: relative;
+	margin-left: 20px;
+	color: white;
+	background-color: #2d2d2d;
+	font-size: 12px;
+	border: none;
+	bottom: 60px;
+}
+
+/* Social Media */
+section .footer .socialmedia {
+	position: relative;
+	float: right;
+	margin-right: 20px;
+	bottom: 170px;
+}
+
+section .footer .socialmedia a {
+	text-decoration: none;
+}
+
+section .footer .socialmedia i {
+	position: relative;
+	margin-right: 60px;
+	color: #eda7ba;
+}
+
+
+
